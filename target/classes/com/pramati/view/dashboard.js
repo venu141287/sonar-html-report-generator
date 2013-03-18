@@ -3,7 +3,6 @@
 		emailAddress = prompt("Enter Email Address to send Sonar Report", "");
 		validated = ValidateEmail(emailAddress);
 		var url = window.location.protocol + "//" + window.location.host + window.location.pathname;
-		alert("URL: "+url);
 		if(validated){
 		if (window.XMLHttpRequest)
 		  {// code for IE7+, Firefox, Chrome, Opera, Safari
